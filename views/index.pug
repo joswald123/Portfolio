@@ -8,7 +8,10 @@ block content
     h1 Let's make the web great together!
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Hi, I'm Juliana. I'm a design-thinking full-stack developer. This is my portfolio that contains my 
+      | latest projects. Each project will show HTML, CSS, JavaScript, and other skills necessary for a 
+      | full-stack developer. These project ideas are from the Treehouse development community and learning 
+      | website.
 
 
   article.portfolio-project-thumbs
@@ -23,6 +26,5 @@ block content
       .cell
           each project in projects
             a(href=`/projects/${project.id}`)
-              img.thumbnail(src=`${project.image_urls[1]}`, alt='')
+              img.thumbnail(src=`${project.image_urls[0]}`, alt= `${project.project_name}`)
               h5= project.project_name
-

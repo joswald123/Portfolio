@@ -3,47 +3,47 @@
       {
         "id": 1,
         "project_name": "Random quotes generator",
-        "description": "The best homemade cinnamon rolls ever!",
-        "technologies": ["5 cups of flour", "1 1/2 cups of sugar", "1 packet of yeast", "1 teaspoon of salt", "1/2 cup of milk", "1/2 cup of water", "3/4 cup of butter", "2 eggs", "1 1/2 tablespoons of ground cinnamon"],
+        "description": "Amazing app that displays random famous quotes & background color every 10 seconds or each time a button 'Show another quote' is clicked.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://joswald123.github.io/Random-Quotes-Generator/",
         "github_link": "https://github.com/joswald123/Random-Quotes-Generator",
-        "image_urls": ["/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
+        "image_urls": ["/images/P1/landingPage.jpg", "/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
       },
       {
         "id": 2,
         "project_name": "Data pagination filtering",
-        "description": "A delicious donut recipe!",
-        "technologies": ["3 1/2 cup flour", "2 packets of yeast", "3/4 cup of milk", "3/4 cup of sugar", "1/4 cup of butter", "1/2 teaspoon of salt", "2 eggs"],
+        "description": "App that contains data of 42 students. Using a technique known as 'pagination' to display the first nine students per page & includes buttons, that the user can click to display different pages of students. Also, it includes a search bar, when the 'Search' is performed, the student data is filtered so that only students whose name includes the search value are shown.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://joswald123.github.io/data-pagination-and-filtering/",
-        "github_link": "https://github.com/joswald123/Random-Quotes-Generator",
-        "image_urls": ["/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
+        "github_link": "https://github.com/joswald123/data-pagination-and-filtering",
+        "image_urls": ["/images/P2/landingPage.jpg", "/images/P2/homePage.png", "/images/P2/searchPage.png"]
       },
       {
         "id": 3,
         "project_name": "Interactive Form",
-        "description": "A perfect pumpkin pie recipe!",
-        "technologies": ["1 can of pumpkin", "1 can of sweetened condensed milk", "2 eggs", "1 teaspoon cinnamon", "1/2 teaspoon ground ginger", "1/2 teaspoon ground nutmeg", "1/2 teaspoon of salt", "1 pie crust"],
-        "live_link": "https://joswald123.github.io/Random-Quotes-Generator/",
-        "github_link": "https://github.com/joswald123/Random-Quotes-Generator",
-        "image_urls": ["/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
+        "description": "Interactive registration form with validation y accessibility features for a fictional Full Stack conference.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Accessibility"],
+        "live_link": "https://joswald123.github.io/interactive-form/",
+        "github_link": "https://github.com/joswald123/interactive-form",
+        "image_urls": ["/images/P3/landingPage.jpg", "/images/P3/interactive-form.png", "/images/P3/interactive-form-access.png"]
       },
       {
         "id": 4,
         "project_name": "Phrase Hunter",
-        "description": "A perfect pumpkin pie recipe!",
-        "technologies": ["1 can of pumpkin", "1 can of sweetened condensed milk", "2 eggs", "1 teaspoon cinnamon", "1/2 teaspoon ground ginger", "1/2 teaspoon ground nutmeg", "1/2 teaspoon of salt", "1 pie crust"],
-        "live_link": "https://joswald123.github.io/Random-Quotes-Generator/",
-        "github_link": "https://github.com/joswald123/Random-Quotes-Generator",
-        "image_urls": ["/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
+        "description": "Interactive word guessing game app. Using JavaScript & OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard. Added a style that dynamically changes the color of the home page title and gives it a transition effect (more details in app.js)",
+        "technologies": ["JavaScript", "HTML", "CSS", "OPP"],
+        "live_link": "https://joswald123.github.io/phrase-hunter/",
+        "github_link": "https://github.com/joswald123/phrase-hunter",
+        "image_urls": ["/images/P4/landingPage.jpg", "/images/P4/homePage.png", "/images/P4/screenBoardPage2.png"]
       },
       {
         "id": 5,
         "project_name": "Public API",
-        "description": "A perfect pumpkin pie recipe!",
-        "technologies": ["1 can of pumpkin", "1 can of sweetened condensed milk", "2 eggs", "1 teaspoon cinnamon", "1/2 teaspoon ground ginger", "1/2 teaspoon ground nutmeg", "1/2 teaspoon of salt", "1 pie crust"],
-        "live_link": "https://joswald123.github.io/Random-Quotes-Generator/",
-        "github_link": "https://github.com/joswald123/Random-Quotes-Generator",
-        "image_urls": ["/images/P1/RandomQuote-1.png", "/images/P1/RandomQuote-2.png"]
+        "description": "Dummy app of employee data requested from The Random User Generator API. The info generates 12 info cards and each card display a modal with more info about each employee.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Fetch and Public APIs"],
+        "live_link": "https://joswald123.github.io/publicApiRequest/",
+        "github_link": "https://github.com/joswald123/publicApiRequest",
+        "image_urls": ["/images/P5/homePage.png", "/images/P5/modalPage.png"]
       }
     ]
   }

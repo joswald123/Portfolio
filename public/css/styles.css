@@ -56,6 +56,7 @@ p{
 
 a {
   text-decoration: none;
+  margin-left: 20px;
 }
 
 .wrapper {
@@ -299,6 +300,27 @@ nav a span {
   background-color: #333;
   border: 1px solid transparent;
 }
+
+/* 
+  Error Page style
+*/
+.not-found-p,
+.error-p {
+  font-size: 1.1em;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.not-found-stack {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.not-found-stack pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 
 
 /* 
