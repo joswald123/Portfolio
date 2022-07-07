@@ -152,7 +152,8 @@ nav a span {
 
 /* Hover effect */
 img.thumbnail:hover {
-  filter: brightness(80%);
+  filter: brightness(95%);
+  width: 375px;
 }
 
 

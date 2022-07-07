@@ -1,7 +1,11 @@
 # Portfolio
 JavaScript | PUG | CSS |  | NODE | EXPRESS
 
-This portfolio is a marketing document that shows different projects created with the ThreeHouse community courses that demonstrates my experience as a full stack developer.  
+This portfolio is a marketing document that shows different projects created with the ThreeHouse community courses that demonstrates my experience as a full stack developer.
+
+### CSS Changes
+1. img.thumbnail:hover. width expansion set to 375px on hover.
+
 
 
 ### Quick Start
