@@ -15,13 +15,16 @@ router.get("/about", function (req, res, next) {
 /* GET project page */
 router.get("/projects/:id", function (req, res, next) {
   const projectId = req.params.id;
-  const project = projects.find(({ id }) => id === +projectId);
+  const project = projects.find(({ id }) => id === + projectId);
 
   if (project) {
     res.render("project", { project });
   } else {
     console.log("Error 404");
-    res.status(404).render("not-found");
+    const err = new Error();
+    err.message = "Looks like the project you requested doesn't exist."
+    err.status = 404;
+    next(err);
   }
 });
 

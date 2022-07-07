@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    article.portfolio
+        .inner-wrapper.flex-row-wrap
+        .about-intro-box.box
+  
+            div.container
+                h1= `404 - Page Not Found`
+                p.not-found-p= `Oops!  It looks like the page you're looking for does not exist.`
+
+                if err
+
+                    div.not-found-stack
+                        hr
+                    pre #{err.stack}
+
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back

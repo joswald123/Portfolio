@@ -16,7 +16,7 @@ app.use(express.static('public'));
 
 // Error Handlers Response 404
 app.use((req, res, next) => {
-    res.status(404).render('not-found')
+    res.status(404).render('404');
     
 });
 
@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
 
     if(err.status === 404) {
-        res.status(404).render('not-found', { err });
+        res.status(404).render('404', { err });
     } else {
         err.message = err.message || 'It looks like something went wrong on the server.';
         res.status(err.status || 500).render('error', { err })
