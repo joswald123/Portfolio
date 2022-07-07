@@ -43,7 +43,7 @@
         "technologies": ["JavaScript", "HTML", "CSS", "Fetch and Public APIs"],
         "live_link": "https://joswald123.github.io/publicApiRequest/",
         "github_link": "https://github.com/joswald123/publicApiRequest",
-        "image_urls": ["/images/P5/homePage.png", "/images/P5/modalPage.png"]
+        "image_urls": ["/images/P5/landingPage.jpg","/images/P5/homePage.png", "/images/P5/modalPage.png"]
       }
     ]
   }
